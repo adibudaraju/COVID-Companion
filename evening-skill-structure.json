@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "covid companion evening",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "OpenEndedIntent",
+                    "slots": [
+                        {
+                            "name": "phrase",
+                            "type": "AMAZON.Person"
+                        }
+                    ],
+                    "samples": [
+                        "{phrase} "
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yeah",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "nope",
+                        "no"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
